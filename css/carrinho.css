@@ -203,11 +203,13 @@ body {
   border-top: 1px solid;
   border-image: linear-gradient(90deg, transparent, rgba(176, 152, 128, 0.08), rgba(176, 152, 128, 0.30), rgba(176, 152, 128, 0.08), transparent) 1;
   border-bottom: 1px solid;
+  background: #090909;
 }
 
 .product-cart--selected:active {
   background: #0a0a0a;
   transform: scale(1.02);
+
 }
 
 

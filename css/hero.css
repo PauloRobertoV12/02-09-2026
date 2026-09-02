@@ -684,8 +684,8 @@ section {
 .hero__content {
   position: absolute;
   width: fit-content;
-  left: 303px;
   top: 323px;
+  padding-left: 180px;
   display: grid;
   flex-direction: column;
   align-items: flex-start;
@@ -815,8 +815,11 @@ section {
   transition: all 0.2s;
 }
 
-span.hero__cta-icon-login:hover {
-  background: hsl(0 0% 5% / 1);
+.hero__cta-icon-login:hover {
+  background: #101010;
+  border-image: linear-gradient(90deg, transparent, rgba(176, 152, 128, 0.08), rgba(176, 152, 128, 0.30), rgba(176, 152, 128, 0.08), transparent) 1;
+  border-top: 2px solid;
+  border-image: linear-gradient(90deg, transparent, rgba(176, 152, 128, 0.08), rgba(176, 152, 128, 0.30), rgba(176, 152, 128, 0.08), transparent) 1;
 }
 
 .hero__cta-text-login {
@@ -857,7 +860,6 @@ span.hero__cta-icon-login:hover {
 
 .hero__cta__big:hover {
   transform: scale(1.02);
-  outline: 1px solid #9c754e;
   border-radius: 14px;
 }
 
@@ -874,7 +876,10 @@ span.hero__cta-icon-login:hover {
 }
 
 span.hero__cta__big-icon:hover {
-  background: hsl(0 0% 5% / 1);
+  background: #101010;
+  border-image: linear-gradient(90deg, transparent, rgba(176, 152, 128, 0.08), rgba(176, 152, 128, 0.30), rgba(176, 152, 128, 0.08), transparent) 1;
+  border-top: 2px solid;
+  border-image: linear-gradient(90deg, transparent, rgba(176, 152, 128, 0.08), rgba(176, 152, 128, 0.30), rgba(176, 152, 128, 0.08), transparent) 1;
 }
 
 .hero__cta__big-text {
@@ -939,9 +944,11 @@ span.hero__cta__big-icon:hover {
 
 .hero__arrow--prev:hover {
   transform: scale(1.08);
-  background: hsl(0 0% 4% / 1);
-  outline: 1px solid hsl(30 33% 26% / 1);
+  border-top: 1px solid;
+  border-image: linear-gradient(90deg, transparent, rgba(176, 152, 128, 0.08), rgba(176, 152, 128, 0.30), rgba(176, 152, 128, 0.08), transparent) 1;
+  border-bottom: 1px solid;
   border-radius: 14px;
+  background: #101010;
 }
 
 .hero__arrow--next {
@@ -951,9 +958,11 @@ span.hero__cta__big-icon:hover {
 
 .hero__arrow--next:hover {
   transform: scale(1.08);
-  background: hsl(0 0% 4% / 1);
-  outline: 1px solid hsl(30 33% 26% / 1);
+  border-top: 1px solid;
+  border-image: linear-gradient(90deg, transparent, rgba(176, 152, 128, 0.08), rgba(176, 152, 128, 0.30), rgba(176, 152, 128, 0.08), transparent) 1;
+  border-bottom: 1px solid;
   border-radius: 14px;
+      background: #101010;
 }
 
 /* ===== PAGINAÇÃO ===== */
