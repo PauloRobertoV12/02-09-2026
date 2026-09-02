@@ -11,7 +11,10 @@
   <link rel="stylesheet" href="../css/rodape.css">
   <link rel="stylesheet" href="../css/carrinho.css">
   <link rel="stylesheet" href="../css/products.css">
+  <link rel="stylesheet" href="./css/categories.css">
+  <link rel="stylesheet" href="./css/colecao.css">
   <link rel="stylesheet" href="./css/login.css">
+  <link rel="stylesheet" href="./css/produto.css">
 </head>
 <body>
     <script>
@@ -170,7 +173,7 @@
             </span>
             <span>Nossas Coleções</span>
           </a>
-          <a href="./pages/404.html" class="fixed-menu__item">
+          <a href="../pages/404.html" class="fixed-menu__item">
             <span class="fixed-menu__icon">
               <svg viewBox="0 0 24 24" aria-hidden="true">
                 <circle cx="11" cy="11" r="6"></circle>
@@ -179,14 +182,14 @@
             </span>
             <span>Página Erro</span>
           </a>
-          <a href="#" class="fixed-menu__item">
+          <a href="./pages/produto.html" class="fixed-menu__item">
             <span class="fixed-menu__icon">
               <svg viewBox="0 0 24 24" aria-hidden="true">
                 <circle cx="11" cy="11" r="6"></circle>
                 <path d="m16 16 4 4"></path>
               </svg>
             </span>
-            <span>Buscar Produtos</span>
+            <span>Nossos Produtos</span>
           </a>
           <a href="#" class="fixed-menu__item">
             <span class="fixed-menu__icon">
@@ -263,6 +266,7 @@
                 <article class="product-card">
                 <div class="product-card__bg"></div>
                 <div class="product-card__inner">
+                  <a href="./pages/produto.html">
                     <div class="product-card__image" role="img" aria-label="Imagem do produto"></div>
                     <div class="product-card__info">
                     <h3 class="product-card__name">Dorem ipsum dolor sit amet...</h3>
@@ -276,10 +280,12 @@
                         <img src="../assets/images/Ícone de Carrinho.png" alt="Ícone do Carrinho">
                     </button>
                     </div>
+                  </a>
                 </div>
                 </article>
     
                 <article class="product-card">
+                <a href="./pages/produto.html">
                 <div class="product-card__bg"></div>
                 <div class="product-card__inner">
                     <div class="product-card__image" role="img" aria-label="Imagem do produto"></div>
@@ -296,9 +302,11 @@
                     </button>
                     </div>
                 </div>
+                </a>
                 </article>
     
                 <article class="product-card">
+                <a href="./pages/produto.html">
                 <div class="product-card__bg"></div>
                 <div class="product-card__inner">
                     <div class="product-card__image" role="img" aria-label="Imagem do produto"></div>
@@ -315,9 +323,11 @@
                     </button>
                     </div>
                 </div>
+                </a>
                 </article>
     
                 <article class="product-card">
+                <a href="./pages/produto.html">
                 <div class="product-card__bg"></div>
                 <div class="product-card__inner">
                     <div class="product-card__image" role="img" aria-label="Imagem do produto"></div>
@@ -334,6 +344,7 @@
                     </button>
                     </div>
                 </div>
+                </a>
                 </article>
             </div>
             </div>
@@ -348,90 +359,137 @@
             </nav>
         </section>
 
-    <section class="products" aria-label="Produtos em destaque">
-        <div class="products__main">
-        <header class="products__header">
-            <h2 class="products__title">Vorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-        </header>
+        <section class="product-section">
 
-        <div class="products__cards">
-            <article class="product-card">
-            <div class="product-card__bg"></div>
-            <div class="product-card__inner">
-                <div class="product-card__image" role="img" aria-label="Imagem do produto"></div>
-                <div class="product-card__info">
-                <h3 class="product-card__name">Dorem ipsum dolor sit amet...</h3>
-                <span class="product-card__price">R$ 79,90</span>
-                <p class="product-card__discount">Desconto de 10% OFF no pix</p>
-                </div>
-                <div class="product-card__cart">
-                <div class="product-card__cart-border"></div>
-                <span class="product-card__cart-text">MEU CARRINHO</span>
-                <button class="product-card__cart-icon">
-                    <img src="../assets/images/Ícone de Carrinho.png" alt="Ícone do Carrinho">
-                </button>
-                </div>
-            </div>
+          <h2 class="product-section__title">
+            Cafés em Grãos, Moídos e Cápsulas
+          </h2>
+        
+          <div class="product-section__banners">
+        
+            <article class="category-banner">
+              <img src="../assets/images/Imagem do Produto.png" alt="">
             </article>
+        
+            <article class="category-banner">
+              <img src="../assets/images/Imagem do Produto.png" alt="">
+            </article>
+        
+            <article class="category-banner">
+              <img src="../assets/images/Imagem do Produto.png" alt="">
+            </article>
+        
+            <article class="category-banner">
+              <img src="../assets/images/Imagem do Produto.png" alt="">
+            </article>
+        
+          </div>
+        
+          <div class="slider-controls">
+              <nav class="products__nav" aria-label="Navegação de produtos">
+                  <button class="hero__arrow hero__arrow--prev" type="button" aria-label="Produtos anteriores">
+                      <img src="../assets/images/Seta Comum Básica.png" alt="Seta da Esquerda">
+                  </button>
+                  <button class="hero__arrow hero__arrow--next" type="button" aria-label="Próximos produtos">
+                      <img src="../assets/images/Seta Preenchida Hover.png" alt="Seta da Direita Selecionada">
+                  </button>
+              </nav>
+          </div>
+  
+        </section>
 
-            <article class="product-card">
-            <div class="product-card__bg"></div>
-            <div class="product-card__inner">
-                <div class="product-card__image" role="img" aria-label="Imagem do produto"></div>
-                <div class="product-card__info">
-                <h3 class="product-card__name">Dorem ipsum dolor sit amet...</h3>
-                <span class="product-card__price">R$ 79,90</span>
-                <p class="product-card__discount">Desconto de 10% OFF no pix</p>
-                </div>
-                <div class="product-card__cart">
-                <div class="product-card__cart-border"></div>
-                <span class="product-card__cart-text">MEU CARRINHO</span>
-                <button class="product-card__cart-icon">
-                    <img src="../assets/images/Ícone de Carrinho.png" alt="Ícone do Carrinho">
-                </button>
-                </div>
-            </div>
-            </article>
-
-            <article class="product-card">
-            <div class="product-card__bg"></div>
-            <div class="product-card__inner">
-                <div class="product-card__image" role="img" aria-label="Imagem do produto"></div>
-                <div class="product-card__info">
-                <h3 class="product-card__name">Dorem ipsum dolor sit amet...</h3>
-                <span class="product-card__price">R$ 79,90</span>
-                <p class="product-card__discount">Desconto de 10% OFF no pix</p>
-                </div>
-                <div class="product-card__cart">
-                <div class="product-card__cart-border"></div>
-                <span class="product-card__cart-text">MEU CARRINHO</span>
-                <button class="product-card__cart-icon">
-                    <img src="../assets/images/Ícone de Carrinho.png" alt="Ícone do Carrinho">
-                </button>
-                </div>
-            </div>
-            </article>
-
-            <article class="product-card">
-            <div class="product-card__bg"></div>
-            <div class="product-card__inner">
-                <div class="product-card__image" role="img" aria-label="Imagem do produto"></div>
-                <div class="product-card__info">
-                <h3 class="product-card__name">Dorem ipsum dolor sit amet...</h3>
-                <span class="product-card__price">R$ 79,90</span>
-                <p class="product-card__discount">Desconto de 10% OFF no pix</p>
-                </div>
-                <div class="product-card__cart">
-                <div class="product-card__cart-border"></div>
-                <span class="product-card__cart-text">MEU CARRINHO</span>
-                <button class="product-card__cart-icon">
-                    <img src="../assets/images/Ícone de Carrinho.png" alt="Ícone do Carrinho">
-                </button>
-                </div>
-            </div>
-            </article>
-        </div>
-        </div>
+        <section class="products" aria-label="Produtos em destaque">
+          <div class="products__main">
+          <header class="products__header">
+              <h2 class="products__title">Vorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+          </header>
+  
+          <div class="products__cards">
+              <article class="product-card">
+              <div class="product-card__bg"></div>
+              <div class="product-card__inner">
+                <a href="./pages/produto.html">
+                  <div class="product-card__image" role="img" aria-label="Imagem do produto"></div>
+                  <div class="product-card__info">
+                  <h3 class="product-card__name">Dorem ipsum dolor sit amet...</h3>
+                  <span class="product-card__price">R$ 79,90</span>
+                  <p class="product-card__discount">Desconto de 10% OFF no pix</p>
+                  </div>
+                  <div class="product-card__cart">
+                  <div class="product-card__cart-border"></div>
+                  <span class="product-card__cart-text">MEU CARRINHO</span>
+                  <button class="product-card__cart-icon">
+                      <img src="../assets/images/Ícone de Carrinho.png" alt="Ícone do Carrinho">
+                  </button>
+                  </div>
+                </a>
+              </div>
+              </article>
+  
+              <article class="product-card">
+              <a href="./pages/produto.html">
+              <div class="product-card__bg"></div>
+              <div class="product-card__inner">
+                  <div class="product-card__image" role="img" aria-label="Imagem do produto"></div>
+                  <div class="product-card__info">
+                  <h3 class="product-card__name">Dorem ipsum dolor sit amet...</h3>
+                  <span class="product-card__price">R$ 79,90</span>
+                  <p class="product-card__discount">Desconto de 10% OFF no pix</p>
+                  </div>
+                  <div class="product-card__cart">
+                  <div class="product-card__cart-border"></div>
+                  <span class="product-card__cart-text">MEU CARRINHO</span>
+                  <button class="product-card__cart-icon">
+                      <img src="../assets/images/Ícone de Carrinho.png" alt="Ícone do Carrinho">
+                  </button>
+                  </div>
+              </div>
+              </a>
+              </article>
+  
+              <article class="product-card">
+              <a href="./pages/produto.html">
+              <div class="product-card__bg"></div>
+              <div class="product-card__inner">
+                  <div class="product-card__image" role="img" aria-label="Imagem do produto"></div>
+                  <div class="product-card__info">
+                  <h3 class="product-card__name">Dorem ipsum dolor sit amet...</h3>
+                  <span class="product-card__price">R$ 79,90</span>
+                  <p class="product-card__discount">Desconto de 10% OFF no pix</p>
+                  </div>
+                  <div class="product-card__cart">
+                  <div class="product-card__cart-border"></div>
+                  <span class="product-card__cart-text">MEU CARRINHO</span>
+                  <button class="product-card__cart-icon">
+                      <img src="../assets/images/Ícone de Carrinho.png" alt="Ícone do Carrinho">
+                  </button>
+                  </div>
+              </div>
+              </a>
+              </article>
+  
+              <article class="product-card">
+              <a href="./pages/produto.html">
+              <div class="product-card__bg"></div>
+              <div class="product-card__inner">
+                  <div class="product-card__image" role="img" aria-label="Imagem do produto"></div>
+                  <div class="product-card__info">
+                  <h3 class="product-card__name">Dorem ipsum dolor sit amet...</h3>
+                  <span class="product-card__price">R$ 79,90</span>
+                  <p class="product-card__discount">Desconto de 10% OFF no pix</p>
+                  </div>
+                  <div class="product-card__cart">
+                  <div class="product-card__cart-border"></div>
+                  <span class="product-card__cart-text">MEU CARRINHO</span>
+                  <button class="product-card__cart-icon">
+                      <img src="../assets/images/Ícone de Carrinho.png" alt="Ícone do Carrinho">
+                  </button>
+                  </div>
+              </div>
+              </a>
+              </article>
+          </div>
+          </div>
 
         <nav class="products__nav" aria-label="Navegação de produtos">
         <button class="hero__arrow hero__arrow--prev" type="button" aria-label="Produtos anteriores">
@@ -443,90 +501,137 @@
         </nav>
     </section>
 
+    <section class="product-section">
+
+      <h2 class="product-section__title">
+        Cafés em Grãos, Moídos e Cápsulas
+      </h2>
+    
+      <div class="product-section__banners">
+    
+        <article class="category-banner">
+          <img src="../assets/images/Imagem do Produto.png" alt="">
+        </article>
+    
+        <article class="category-banner">
+          <img src="../assets/images/Imagem do Produto.png" alt="">
+        </article>
+    
+        <article class="category-banner">
+          <img src="../assets/images/Imagem do Produto.png" alt="">
+        </article>
+    
+        <article class="category-banner">
+          <img src="../assets/images/Imagem do Produto.png" alt="">
+        </article>
+    
+      </div>
+    
+      <div class="slider-controls">
+          <nav class="products__nav" aria-label="Navegação de produtos">
+              <button class="hero__arrow hero__arrow--prev" type="button" aria-label="Produtos anteriores">
+                  <img src="../assets/images/Seta Comum Básica.png" alt="Seta da Esquerda">
+              </button>
+              <button class="hero__arrow hero__arrow--next" type="button" aria-label="Próximos produtos">
+                  <img src="../assets/images/Seta Preenchida Hover.png" alt="Seta da Direita Selecionada">
+              </button>
+          </nav>
+      </div>
+
+    </section>
+
     <section class="products" aria-label="Produtos em destaque">
-        <div class="products__main">
-        <header class="products__header">
-            <h2 class="products__title">Vorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-        </header>
+      <div class="products__main">
+      <header class="products__header">
+          <h2 class="products__title">Vorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      </header>
 
-        <div class="products__cards">
-            <article class="product-card">
-            <div class="product-card__bg"></div>
-            <div class="product-card__inner">
-                <div class="product-card__image" role="img" aria-label="Imagem do produto"></div>
-                <div class="product-card__info">
-                <h3 class="product-card__name">Dorem ipsum dolor sit amet...</h3>
-                <span class="product-card__price">R$ 79,90</span>
-                <p class="product-card__discount">Desconto de 10% OFF no pix</p>
-                </div>
-                <div class="product-card__cart">
-                <div class="product-card__cart-border"></div>
-                <span class="product-card__cart-text">MEU CARRINHO</span>
-                <button class="product-card__cart-icon">
-                    <img src="../assets/images/Ícone de Carrinho.png" alt="Ícone do Carrinho">
-                </button>
-                </div>
-            </div>
-            </article>
+      <div class="products__cards">
+          <article class="product-card">
+          <div class="product-card__bg"></div>
+          <div class="product-card__inner">
+            <a href="./pages/produto.html">
+              <div class="product-card__image" role="img" aria-label="Imagem do produto"></div>
+              <div class="product-card__info">
+              <h3 class="product-card__name">Dorem ipsum dolor sit amet...</h3>
+              <span class="product-card__price">R$ 79,90</span>
+              <p class="product-card__discount">Desconto de 10% OFF no pix</p>
+              </div>
+              <div class="product-card__cart">
+              <div class="product-card__cart-border"></div>
+              <span class="product-card__cart-text">MEU CARRINHO</span>
+              <button class="product-card__cart-icon">
+                  <img src="../assets/images/Ícone de Carrinho.png" alt="Ícone do Carrinho">
+              </button>
+              </div>
+            </a>
+          </div>
+          </article>
 
-            <article class="product-card">
-            <div class="product-card__bg"></div>
-            <div class="product-card__inner">
-                <div class="product-card__image" role="img" aria-label="Imagem do produto"></div>
-                <div class="product-card__info">
-                <h3 class="product-card__name">Dorem ipsum dolor sit amet...</h3>
-                <span class="product-card__price">R$ 79,90</span>
-                <p class="product-card__discount">Desconto de 10% OFF no pix</p>
-                </div>
-                <div class="product-card__cart">
-                <div class="product-card__cart-border"></div>
-                <span class="product-card__cart-text">MEU CARRINHO</span>
-                <button class="product-card__cart-icon">
-                    <img src="../assets/images/Ícone de Carrinho.png" alt="Ícone do Carrinho">
-                </button>
-                </div>
-            </div>
-            </article>
+          <article class="product-card">
+          <a href="./pages/produto.html">
+          <div class="product-card__bg"></div>
+          <div class="product-card__inner">
+              <div class="product-card__image" role="img" aria-label="Imagem do produto"></div>
+              <div class="product-card__info">
+              <h3 class="product-card__name">Dorem ipsum dolor sit amet...</h3>
+              <span class="product-card__price">R$ 79,90</span>
+              <p class="product-card__discount">Desconto de 10% OFF no pix</p>
+              </div>
+              <div class="product-card__cart">
+              <div class="product-card__cart-border"></div>
+              <span class="product-card__cart-text">MEU CARRINHO</span>
+              <button class="product-card__cart-icon">
+                  <img src="../assets/images/Ícone de Carrinho.png" alt="Ícone do Carrinho">
+              </button>
+              </div>
+          </div>
+          </a>
+          </article>
 
-            <article class="product-card">
-            <div class="product-card__bg"></div>
-            <div class="product-card__inner">
-                <div class="product-card__image" role="img" aria-label="Imagem do produto"></div>
-                <div class="product-card__info">
-                <h3 class="product-card__name">Dorem ipsum dolor sit amet...</h3>
-                <span class="product-card__price">R$ 79,90</span>
-                <p class="product-card__discount">Desconto de 10% OFF no pix</p>
-                </div>
-                <div class="product-card__cart">
-                <div class="product-card__cart-border"></div>
-                <span class="product-card__cart-text">MEU CARRINHO</span>
-                <button class="product-card__cart-icon">
-                    <img src="../assets/images/Ícone de Carrinho.png" alt="Ícone do Carrinho">
-                </button>
-                </div>
-            </div>
-            </article>
+          <article class="product-card">
+          <a href="./pages/produto.html">
+          <div class="product-card__bg"></div>
+          <div class="product-card__inner">
+              <div class="product-card__image" role="img" aria-label="Imagem do produto"></div>
+              <div class="product-card__info">
+              <h3 class="product-card__name">Dorem ipsum dolor sit amet...</h3>
+              <span class="product-card__price">R$ 79,90</span>
+              <p class="product-card__discount">Desconto de 10% OFF no pix</p>
+              </div>
+              <div class="product-card__cart">
+              <div class="product-card__cart-border"></div>
+              <span class="product-card__cart-text">MEU CARRINHO</span>
+              <button class="product-card__cart-icon">
+                  <img src="../assets/images/Ícone de Carrinho.png" alt="Ícone do Carrinho">
+              </button>
+              </div>
+          </div>
+          </a>
+          </article>
 
-            <article class="product-card">
-            <div class="product-card__bg"></div>
-            <div class="product-card__inner">
-                <div class="product-card__image" role="img" aria-label="Imagem do produto"></div>
-                <div class="product-card__info">
-                <h3 class="product-card__name">Dorem ipsum dolor sit amet...</h3>
-                <span class="product-card__price">R$ 79,90</span>
-                <p class="product-card__discount">Desconto de 10% OFF no pix</p>
-                </div>
-                <div class="product-card__cart">
-                <div class="product-card__cart-border"></div>
-                <span class="product-card__cart-text">MEU CARRINHO</span>
-                <button class="product-card__cart-icon">
-                    <img src="../assets/images/Ícone de Carrinho.png" alt="Ícone do Carrinho">
-                </button>
-                </div>
-            </div>
-            </article>
-        </div>
-        </div>
+          <article class="product-card">
+          <a href="./pages/produto.html">
+          <div class="product-card__bg"></div>
+          <div class="product-card__inner">
+              <div class="product-card__image" role="img" aria-label="Imagem do produto"></div>
+              <div class="product-card__info">
+              <h3 class="product-card__name">Dorem ipsum dolor sit amet...</h3>
+              <span class="product-card__price">R$ 79,90</span>
+              <p class="product-card__discount">Desconto de 10% OFF no pix</p>
+              </div>
+              <div class="product-card__cart">
+              <div class="product-card__cart-border"></div>
+              <span class="product-card__cart-text">MEU CARRINHO</span>
+              <button class="product-card__cart-icon">
+                  <img src="../assets/images/Ícone de Carrinho.png" alt="Ícone do Carrinho">
+              </button>
+              </div>
+          </div>
+          </a>
+          </article>
+      </div>
+      </div>
 
         <nav class="products__nav" aria-label="Navegação de produtos">
         <button class="hero__arrow hero__arrow--prev" type="button" aria-label="Produtos anteriores">
@@ -539,89 +644,97 @@
     </section>
     
     <section class="products" aria-label="Produtos em destaque">
-        <div class="products__main">
-        <header class="products__header">
-            <h2 class="products__title">Vorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-        </header>
+      <div class="products__main">
+      <header class="products__header">
+          <h2 class="products__title">Vorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      </header>
 
-        <div class="products__cards">
-            <article class="product-card">
-            <div class="product-card__bg"></div>
-            <div class="product-card__inner">
-                <div class="product-card__image" role="img" aria-label="Imagem do produto"></div>
-                <div class="product-card__info">
-                <h3 class="product-card__name">Dorem ipsum dolor sit amet...</h3>
-                <span class="product-card__price">R$ 79,90</span>
-                <p class="product-card__discount">Desconto de 10% OFF no pix</p>
-                </div>
-                <div class="product-card__cart">
-                <div class="product-card__cart-border"></div>
-                <span class="product-card__cart-text">MEU CARRINHO</span>
-                <button class="product-card__cart-icon">
-                    <img src="../assets/images/Ícone de Carrinho.png" alt="Ícone do Carrinho">
-                </button>
-                </div>
-            </div>
-            </article>
+      <div class="products__cards">
+          <article class="product-card">
+          <div class="product-card__bg"></div>
+          <div class="product-card__inner">
+            <a href="./pages/produto.html">
+              <div class="product-card__image" role="img" aria-label="Imagem do produto"></div>
+              <div class="product-card__info">
+              <h3 class="product-card__name">Dorem ipsum dolor sit amet...</h3>
+              <span class="product-card__price">R$ 79,90</span>
+              <p class="product-card__discount">Desconto de 10% OFF no pix</p>
+              </div>
+              <div class="product-card__cart">
+              <div class="product-card__cart-border"></div>
+              <span class="product-card__cart-text">MEU CARRINHO</span>
+              <button class="product-card__cart-icon">
+                  <img src="../assets/images/Ícone de Carrinho.png" alt="Ícone do Carrinho">
+              </button>
+              </div>
+            </a>
+          </div>
+          </article>
 
-            <article class="product-card">
-            <div class="product-card__bg"></div>
-            <div class="product-card__inner">
-                <div class="product-card__image" role="img" aria-label="Imagem do produto"></div>
-                <div class="product-card__info">
-                <h3 class="product-card__name">Dorem ipsum dolor sit amet...</h3>
-                <span class="product-card__price">R$ 79,90</span>
-                <p class="product-card__discount">Desconto de 10% OFF no pix</p>
-                </div>
-                <div class="product-card__cart">
-                <div class="product-card__cart-border"></div>
-                <span class="product-card__cart-text">MEU CARRINHO</span>
-                <button class="product-card__cart-icon">
-                    <img src="../assets/images/Ícone de Carrinho.png" alt="Ícone do Carrinho">
-                </button>
-                </div>
-            </div>
-            </article>
+          <article class="product-card">
+          <a href="./pages/produto.html">
+          <div class="product-card__bg"></div>
+          <div class="product-card__inner">
+              <div class="product-card__image" role="img" aria-label="Imagem do produto"></div>
+              <div class="product-card__info">
+              <h3 class="product-card__name">Dorem ipsum dolor sit amet...</h3>
+              <span class="product-card__price">R$ 79,90</span>
+              <p class="product-card__discount">Desconto de 10% OFF no pix</p>
+              </div>
+              <div class="product-card__cart">
+              <div class="product-card__cart-border"></div>
+              <span class="product-card__cart-text">MEU CARRINHO</span>
+              <button class="product-card__cart-icon">
+                  <img src="../assets/images/Ícone de Carrinho.png" alt="Ícone do Carrinho">
+              </button>
+              </div>
+          </div>
+          </a>
+          </article>
 
-            <article class="product-card">
-            <div class="product-card__bg"></div>
-            <div class="product-card__inner">
-                <div class="product-card__image" role="img" aria-label="Imagem do produto"></div>
-                <div class="product-card__info">
-                <h3 class="product-card__name">Dorem ipsum dolor sit amet...</h3>
-                <span class="product-card__price">R$ 79,90</span>
-                <p class="product-card__discount">Desconto de 10% OFF no pix</p>
-                </div>
-                <div class="product-card__cart">
-                <div class="product-card__cart-border"></div>
-                <span class="product-card__cart-text">MEU CARRINHO</span>
-                <button class="product-card__cart-icon">
-                    <img src="../assets/images/Ícone de Carrinho.png" alt="Ícone do Carrinho">
-                </button>
-                </div>
-            </div>
-            </article>
+          <article class="product-card">
+          <a href="./pages/produto.html">
+          <div class="product-card__bg"></div>
+          <div class="product-card__inner">
+              <div class="product-card__image" role="img" aria-label="Imagem do produto"></div>
+              <div class="product-card__info">
+              <h3 class="product-card__name">Dorem ipsum dolor sit amet...</h3>
+              <span class="product-card__price">R$ 79,90</span>
+              <p class="product-card__discount">Desconto de 10% OFF no pix</p>
+              </div>
+              <div class="product-card__cart">
+              <div class="product-card__cart-border"></div>
+              <span class="product-card__cart-text">MEU CARRINHO</span>
+              <button class="product-card__cart-icon">
+                  <img src="../assets/images/Ícone de Carrinho.png" alt="Ícone do Carrinho">
+              </button>
+              </div>
+          </div>
+          </a>
+          </article>
 
-            <article class="product-card">
-            <div class="product-card__bg"></div>
-            <div class="product-card__inner">
-                <div class="product-card__image" role="img" aria-label="Imagem do produto"></div>
-                <div class="product-card__info">
-                <h3 class="product-card__name">Dorem ipsum dolor sit amet...</h3>
-                <span class="product-card__price">R$ 79,90</span>
-                <p class="product-card__discount">Desconto de 10% OFF no pix</p>
-                </div>
-                <div class="product-card__cart">
-                <div class="product-card__cart-border"></div>
-                <span class="product-card__cart-text">MEU CARRINHO</span>
-                <button class="product-card__cart-icon">
-                    <img src="../assets/images/Ícone de Carrinho.png" alt="Ícone do Carrinho">
-                </button>
-                </div>
-            </div>
-            </article>
-        </div>
-        </div>
+          <article class="product-card">
+          <a href="./pages/produto.html">
+          <div class="product-card__bg"></div>
+          <div class="product-card__inner">
+              <div class="product-card__image" role="img" aria-label="Imagem do produto"></div>
+              <div class="product-card__info">
+              <h3 class="product-card__name">Dorem ipsum dolor sit amet...</h3>
+              <span class="product-card__price">R$ 79,90</span>
+              <p class="product-card__discount">Desconto de 10% OFF no pix</p>
+              </div>
+              <div class="product-card__cart">
+              <div class="product-card__cart-border"></div>
+              <span class="product-card__cart-text">MEU CARRINHO</span>
+              <button class="product-card__cart-icon">
+                  <img src="../assets/images/Ícone de Carrinho.png" alt="Ícone do Carrinho">
+              </button>
+              </div>
+          </div>
+          </a>
+          </article>
+      </div>
+      </div>
 
         <nav class="products__nav" aria-label="Navegação de produtos">
         <button class="hero__arrow hero__arrow--prev" type="button" aria-label="Produtos anteriores">

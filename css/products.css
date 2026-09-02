@@ -172,6 +172,10 @@
   background: #060606;
 }
 
+.product-card__cart-text:hover {
+  background: #090909;
+}
+
 .product-card__cart-icon {
   flex: 0 0 clamp(64px, 26cqw, var(--card-cart-icon));
   display: flex;

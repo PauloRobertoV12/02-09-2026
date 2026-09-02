@@ -940,6 +940,7 @@ span.hero__cta__big-icon:hover {
 .hero__arrow--prev {
   background: #080808;
   transition: 0.2s;
+  z-index: 6;
 }
 
 .hero__arrow--prev:hover {
