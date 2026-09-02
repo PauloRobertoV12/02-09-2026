@@ -197,10 +197,12 @@
     height: 87px;
     padding: 30px;
     background: #090909;
-    border: none;
     color: #b09880;
     font-size: 21.85px;
     font-weight: 700;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(90deg, transparent, rgba(176, 152, 128, 0.08), rgba(176, 152, 128, 0.30), rgba(176, 152, 128, 0.08), transparent) 1;
   }
   
   
@@ -272,5 +274,8 @@
   height: 100%;
   display: block;
   object-fit: cover;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-image: linear-gradient(90deg, transparent, rgba(176, 152, 128, 0.08), rgba(176, 152, 128, 0.30), rgba(176, 152, 128, 0.08), transparent) 1;
 }
 

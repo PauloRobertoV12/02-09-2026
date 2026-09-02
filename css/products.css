@@ -82,6 +82,9 @@
   margin: var(--card-pad);
   padding: var(--card-inner-pad);
   border-radius: var(--card-radius-inner);
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-image: linear-gradient(90deg, transparent, rgba(176, 152, 128, 0.08), rgba(176, 152, 128, 0.30), rgba(176, 152, 128, 0.08), transparent) 1;
 }
 
 .product-card__image {

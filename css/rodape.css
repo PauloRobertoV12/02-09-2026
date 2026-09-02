@@ -88,9 +88,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-top: 1px solid rgb(16 16 16 / 38%);
-    border-bottom: 1px solid rgb(16 16 16 / 38%);
     background: #040404;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(90deg, transparent, rgba(176, 152, 128, 0.08), rgba(176, 152, 128, 0.30), rgba(176, 152, 128, 0.08), transparent) 1;
   }
   
   
@@ -289,10 +290,9 @@
   
   /* Facebook */
   
-  .footer__social .facebook {
-    fill: currentColor;
-  
-    stroke: none;
+  .icon-facebook {
+    width: 32px;
+    height: 32px;
   }
   
   
